@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -10,7 +11,10 @@ export default function Home() {
         <link rel="icon" href="https://download.logo.wine/logo/Hulu/Hulu-Logo.wine.png" />
       </Head>
 
+        <Image className="object-contain" src="https://links.papareact.com/ua6" width={200} height={100} />
 
+
+        <Header />
 
     </div>
   )
