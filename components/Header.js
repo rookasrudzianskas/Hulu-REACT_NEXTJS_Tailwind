@@ -9,6 +9,7 @@ import {
     UserIcon,
 } from "@heroicons/react/outline";
 import HeaderItem from "./HeaderItem";
+import Nav from "./Nav";
 
 const Header = () => {
     return (
